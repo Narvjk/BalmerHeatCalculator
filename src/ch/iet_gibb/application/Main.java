@@ -17,8 +17,8 @@ public class Main {
         CylinderTank cylinderTank = new CylinderTank(100, 50, "Hans", 60, 100, 100);
 
         // Ausgabe der Tank-Details
-        System.out.println(tank.toString());
-        System.out.println(squareTank.toString());
-        System.out.println(cylinderTank.toString());
+        System.out.println(tank);
+        System.out.println(squareTank);
+        System.out.println(cylinderTank);
     }
 }
